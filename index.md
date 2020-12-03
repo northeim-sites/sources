@@ -2,4 +2,4 @@
 layout: default
 ---
 
-<h1>Welcome to {{site.title}}</h1>
+<p>test</p>

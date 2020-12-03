@@ -1,0 +1,102 @@
+<div class="row">
+        <div class="col-md-3">
+            <ul class="nav flex-column  nav-pills" id="pills-tab" role="tablist" aria-orientation="vertical">
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link active" id="tab-vorpeise" data-toggle="pill" href="#menu-vorspeise" role="tab"
+                       aria-controls="pills-home" aria-selected="true">Vorspeisen</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="tab-nudeln" data-toggle="pill" href="#menu-nudeln" role="tab"
+                       aria-controls="pills-profile" aria-selected="false">Nudel-Gerichte</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="tab-reis" data-toggle="pill" href="#menu-reis" role="tab"
+                       aria-controls="pills-contact" aria-selected="false">Reis-Gerichte</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="tab-vegetarisch" data-toggle="pill" href="#menu-vegetarisch" role="tab"
+                       aria-controls="pills-contact" aria-selected="false">Vegetarische-Gerichte</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="tab-huhn" data-toggle="pill" href="#menu-huhn" role="tab"
+                       aria-controls="pills-contact" aria-selected="false">Hühnerfleisch-Gerichte</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="tab-schwein" data-toggle="pill" href="#menu-schwein" role="tab"
+                       aria-controls="pills-contact" aria-selected="false">Schweinefleisch-Gerichte</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="tab-ente" data-toggle="pill" href="#menu-ente" role="tab"
+                       aria-controls="pills-contact" aria-selected="false">Enten-Gerichte</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="tab-fisch" data-toggle="pill" href="#menu-fisch" role="tab"
+                       aria-controls="pills-contact" aria-selected="false">Fisch-Gerichte</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="tab-garnelen" data-toggle="pill" href="#menu-garnelen" role="tab"
+                       aria-controls="pills-contact" aria-selected="false">Garnelen-Gerichte</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="tab-rind" data-toggle="pill" href="#menu-rind" role="tab"
+                       aria-controls="pills-contact" aria-selected="false">Rinder-Gerichte</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="tab-kinder" data-toggle="pill" href="#menu-kinder" role="tab"
+                       aria-controls="pills-contact" aria-selected="false">Für unsere kleinen Gäste</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="tab-spezial" data-toggle="pill" href="#menu-spezial" role="tab"
+                       aria-controls="pills-contact" aria-selected="false">Asialand Spezialität</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="tab-sonstiges" data-toggle="pill" href="#menu-sonstiges" role="tab"
+                       aria-controls="pills-contact" aria-selected="false">Beilagen & Getränke</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-9">
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="menu-vorspeise" role="tabpanel"
+                     aria-labelledby="tab-vorpeise">
+                    {% include 'asialand/vorspeisen.html'%}
+                </div>
+                <div class="tab-pane fade" id="menu-nudeln" role="tabpanel" aria-labelledby="tab-nudeln">
+                    {% include 'asialand/nudeln.html'%}
+                </div>
+                <div class="tab-pane fade" id="menu-reis" role="tabpanel" aria-labelledby="tab-reis">
+                    {% include 'asialand/reis.html'%}
+                </div>
+                <div class="tab-pane fade" id="menu-vegetarisch" role="tabpanel" aria-labelledby="tab-vegetarisch">
+                    {% include 'asialand/vegetarisch.html'%}
+                </div>
+                <div class="tab-pane fade" id="menu-huhn" role="tabpanel" aria-labelledby="tab-huhn">
+                    {% include 'asialand/huhn.html'%}
+                </div>
+                <div class="tab-pane fade" id="menu-schwein" role="tabpanel" aria-labelledby="tab-schwein">
+                    {% include 'asialand/schwein.html'%}
+                </div>
+                <div class="tab-pane fade" id="menu-ente" role="tabpanel" aria-labelledby="tab-ente">
+                    {% include 'asialand/ente.html'%}
+                </div>
+                <div class="tab-pane fade" id="menu-fisch" role="tabpanel" aria-labelledby="tab-fisch">
+                    {% include 'asialand/fisch.html'%}
+                </div>
+                <div class="tab-pane fade" id="menu-garnelen" role="tabpanel" aria-labelledby="tab-garnelen">
+                    {% include 'asialand/garnelen.html'%}
+                </div>
+                <div class="tab-pane fade" id="menu-rind" role="tabpanel" aria-labelledby="tab-rind">
+                    {% include 'asialand/rind.html'%}
+                </div>
+                <div class="tab-pane fade" id="menu-kinder" role="tabpanel" aria-labelledby="tab-kinder">
+                    {% include 'asialand/kinder.html'%}
+                </div>
+                <div class="tab-pane fade" id="menu-spezial" role="tabpanel" aria-labelledby="tab-spezial">
+                    {% include 'asialand/spezial.html'%}
+                </div>
+                <div class="tab-pane fade" id="menu-sonstiges" role="tabpanel" aria-labelledby="tab-sonstiges">
+                    {% include 'asialand/sonstige.html'%}
+                </div>
+            </div>
+        </div>
+    </div>
